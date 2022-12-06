@@ -1,5 +1,4 @@
-'''AOC 2022'''
-'''Day 1.1'''
+'''AOC 2022 Day1'''
 with open('Day1_input.txt') as f:
     lines = f.readlines()
 
