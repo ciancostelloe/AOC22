@@ -10,8 +10,7 @@ for line in lines:
         total = sum(list_of_calories_per_elf)
         total_list.append(total)
         list_of_calories_per_elf = []
-answer = max(total_list)
-print(answer)
+print(max(total_list))
 
 '''Part 2'''
 sorted_list = sorted(total_list)
