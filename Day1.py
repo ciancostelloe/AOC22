@@ -3,8 +3,7 @@
 with open('Day1_input.txt') as f:
     lines = f.readlines()
 
-list_of_calories_per_elf = []
-total_list = []
+list_of_calories_per_elf, total_list = [], []
 for line in lines:
     if line != '\n':
         list_of_calories_per_elf.append(int(line))
