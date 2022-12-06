@@ -16,5 +16,4 @@ print(answer)
 
 '''Part 2'''
 sorted_list = sorted(total_list)
-num_of_elves = len(total_list)
-print(sorted_list[num_of_elves - 1] + sorted_list[num_of_elves - 2] + sorted_list[num_of_elves - 3])
+print(sorted_list[len(total_list) - 1] + sorted_list[len(total_list) - 2] + sorted_list[len(total_list) - 3])
